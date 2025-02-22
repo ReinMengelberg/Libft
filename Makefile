@@ -1,5 +1,5 @@
 NAME = libft.a                     # The name of the library you're creating
-CC = gcc                           # The compiler
+CC = cc                            # The compiler
 CFLAGS = -Wall -Wextra -Werror -I. # Compilation flags
 SRC = $(wildcard *.c)              # Use wildcard to include all .c files in the directory
 OBJ = $(SRC:.c=.o)                 # Convert all .c files to their respective .o files
