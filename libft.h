@@ -6,7 +6,7 @@
 /*   By: rein <rein@student.codam.nl>                 +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/08 20:10:52 by rein          #+#    #+#                 */
-/*   Updated: 2025/02/22 17:30:32 by rein          ########   odam.nl         */
+/*   Updated: 2025/02/22 17:31:27 by rein          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,18 +56,18 @@ void		ft_putendl_fd(char *s, int fd);
 void		ft_putnbr_fd(int n, int fd);
 
 //ft_printf
-int		ft_printf(const char *format, ...);
-int		ft_which_print(char specifier, va_list args);
-int		ft_print_c(int c);
-int		ft_print_s(char *s);
-int		ft_print_p(void *p);
-int		ft_print_d(int d);
-int		ft_print_i(int i);
-int		ft_print_u(unsigned int u);
-int		ft_print_x(unsigned int x);
-int		ft_print_xupper(unsigned int x);
-int		ft_print_procent(void);
-int		ft_rev_and_write(char *str);
+int			ft_printf(const char *format, ...);
+int			ft_which_print(char specifier, va_list args);
+int			ft_print_c(int c);
+int			ft_print_s(char *s);
+int			ft_print_p(void *p);
+int			ft_print_d(int d);
+int			ft_print_i(int i);
+int			ft_print_u(unsigned int u);
+int			ft_print_x(unsigned int x);
+int			ft_print_xupper(unsigned int x);
+int			ft_print_procent(void);
+int			ft_rev_and_write(char *str);
 
 //get_next_line
 
